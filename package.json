@@ -1,0 +1,40 @@
+{
+  "name": "patita",
+  "version": "1.0.0",
+  "description": "Api for La Patita fast food store",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint Services",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "fast",
+    "food"
+  ],
+  "author": "Luis Lugo",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.3.0",
+    "hapi": "14.2.0",
+    "sequelize": "3.24.1",
+    "mysql": "2.11.1",
+    "underscore": "1.8.3",
+    "path": "0.12.7",
+    "fs": "0.0.2",
+    "hapi-auth-jwt2": "7.0.1",
+    "joi": "9.0.4",
+    "jsonwebtoken": "7.1.9",
+    "moment": "2.14.1",
+    "bluebird": "3.4.1",
+    "hapi-cors-headers": "1.0.0",
+    "short-id-gen": "1.1.2",
+    "saml-encoder-decoder-js": "1.0.1",
+    "xml2js": "",
+    "base-64": "0.1.0",
+    "nodemailer": "2.5.0",
+    "nodemailer-smtp-pool": "2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1"
+  }
+}
